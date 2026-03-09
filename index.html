@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manasvi Rai | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+header h1{
+color:#38bdf8;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:70px 8%;
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.hero h2{
+font-size:42px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+font-size:18px;
+max-width:600px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.project h3{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+.contact p{
+margin:5px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Manasvi Rai</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+<section class="hero" id="about">
+
+<h2>Hello, I'm <span>Manasvi Rai</span></h2>
+
+<p>
+B.Tech IT student at Rajiv Gandhi Institute of Petroleum Technology with a strong interest in software development, AI systems, and robotics. Passionate about building real-world solutions through programming and innovative technologies.
+</p>
+
+<a class="btn" href="MR resume.pdf" download>Download Resume</a>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">
+<h3>Programming</h3>
+<p>C, Java, Python</p>
+</div>
+
+<div class="skill">
+<h3>Web Development</h3>
+<p>HTML, CSS, JavaScript</p>
+</div>
+
+<div class="skill">
+<h3>Tools</h3>
+<p>Git, GitHub, VS Code, IntelliJ</p>
+</div>
+
+<div class="skill">
+<h3>Concepts</h3>
+<p>OOP, Data Structures, Embedded Systems</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>AI Crop Disease Prediction</h3>
+<p>
+Developed an AI-powered web application that detects crop diseases from leaf images using deep learning. Built with HTML, CSS, JavaScript frontend and Python Flask backend.
+</p>
+</div>
+
+<div class="project">
+<h3>Obstacle Avoidance Robot</h3>
+<p>
+Designed an autonomous robot using Arduino UNO and ultrasonic sensors to detect obstacles and automatically change direction for smooth navigation.
+</p>
+</div>
+
+<div class="project">
+<h3>Personal Expense Tracker</h3>
+<p>
+Console-based Java application using OOP and file handling to track expenses by categories and generate monthly summaries.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: manasvirai24@gmail.com</p>
+<p>Phone: +91-9569514659</p>
+<p>LinkedIn: linkedin.com/in/manasvi-rai</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Manasvi Rai | Portfolio Website</p>
+
+</footer>
+
+
+</body>
+</html>
